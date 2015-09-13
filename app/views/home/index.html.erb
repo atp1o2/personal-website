@@ -5,15 +5,15 @@
 
 <div id="nav" class="debug col span-2-d h-30 ">
   <ul>
-    <div><%= button_to "bio", bio_path, method: "get", class: "buttons" %></div>
+    <div><%= button_to "activity", activity_path, method: "get", class: "buttons" %></div>
     <div><%= button_to "projects", projects_path, method: "get", class: "buttons" %></div>
     <div><%= button_to "blog", blogs_path, method: "get", class: "buttons" %></div>
-    <div><%= button_to "contact", contact_path, method: "get", class: "buttons" %></div>
+    <div><%= button_to "bio", bio_path, method: "get", class: "buttons" %></div>
   </ul>
 </div>
 
 <div id="content" class="debug col span-8-d h-30 ml-5">
-  <%= render template: 'home/bio' %>
+  <%= render template: 'home/activity' %>
 </div>
 
 

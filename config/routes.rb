@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   root 'home#index'
 
   controller :home do
-    get 'contact' => 'home#contact'
+    get 'activity' => 'home#activity'
     get 'bio' => 'home#bio'
   end
 

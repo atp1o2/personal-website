@@ -1,5 +1,9 @@
 .debug { border: solid 1px red; }
 
+/*misc*/
+.ta-cen {text-align: center;}
+
+
 /*dimensions*/
 .w-10 {width: 10em; }
 .w-15 {width: 15em; }
