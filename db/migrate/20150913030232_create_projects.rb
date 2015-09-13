@@ -6,6 +6,7 @@ class CreateProjects < ActiveRecord::Migration
       t.string :image
       t.string :tech
       t.string :contributor
+      t.string :url
 
       t.timestamps null: false
     end
