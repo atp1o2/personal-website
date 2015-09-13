@@ -2,6 +2,9 @@ class HomeController < ApplicationController
   def index
   end
 
-  def contact
+  def show
+  end
+
+  def bio
   end
 end

@@ -1,0 +1,33 @@
+.debug { border: solid 1px red; }
+
+/*dimensions*/
+.w-10 {width: 10em; }
+.w-15 {width: 15em; }
+.w-20 {width: 20em; }
+
+.h-5 {height: 5em;}
+.h-10 {height: 10em;}
+.h-15 {height: 15em;}
+.h-20 {height: 20em;}
+.h-30 {height: 30em;}
+
+
+
+/*colors*/
+.bg-blue { background-color: blue; }
+.bg-red { background-color: red; }
+
+
+
+/*margins*/
+.ml-1 {margin-left: 1em;}
+.ml-3 {margin-left: 3em;}
+.ml-5 {margin-left: 5em;}
+.ml-7 {margin-left: 7em;}
+.ml-10 {margin-left: 10em;}
+
+
+
+.mt--1 {margin-top: -1em;}
+.mt--5 {margin-top: -5em;}
+
