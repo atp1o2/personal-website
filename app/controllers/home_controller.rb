@@ -2,9 +2,11 @@ class HomeController < ApplicationController
   def index
   end
 
-  def show
+  def activity
+    render 'activity'
   end
 
   def bio
+    render 'bio'
   end
 end

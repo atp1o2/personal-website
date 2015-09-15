@@ -1,22 +1,30 @@
-<div class="debug row span-12-d h-10 ">
-  <h1>ATP Personal Website</h1>
+<div class="wrapper">
+
+  <div class="debug row span-12-d h-10 bg-green ta-r">
+    <h1>ATP Personal Website</h1>
+  </div>
+
+
+  <div id="nav" class="debug col span-2-d h-40 mt--7">
+    <div class="debug h-10 w-10 bg-silver m-2">
+      <p>Profile Pic here</p>
+    </div>
+
+    <ul>
+      <div><%= button_to "activity", activity_path, method: "get", class: "btn mb-3" %></div>
+      <div><%= button_to "projects", projects_path, method: "get", class: "btn mb-3" %></div>
+      <div><%= button_to "blog", blogs_path, method: "get", class: "btn mb-3" %></div>
+      <div><%= button_to "bio", bio_path, method: "get", class: "btn mb-3" %></div>
+    </ul>
+  </div>
+
+  <div id="content" class="debug col span-8-d h-33 ml-5">
+    <%= render template: 'home/activity' %>
+  </div>
+
 </div>
 
 
-<div id="nav" class="debug col span-2-d h-30 ">
-  <ul>
-    <div><%= button_to "activity", activity_path, method: "get", class: "buttons" %></div>
-    <div><%= button_to "projects", projects_path, method: "get", class: "buttons" %></div>
-    <div><%= button_to "blog", blogs_path, method: "get", class: "buttons" %></div>
-    <div><%= button_to "bio", bio_path, method: "get", class: "buttons" %></div>
-  </ul>
-</div>
 
-<div id="content" class="debug col span-8-d h-30 ml-5">
-  <%= render template: 'home/activity' %>
-</div>
-
-
-
-
+=button_to( "New", :action => "new", :controller => "editor")
 
