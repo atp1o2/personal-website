@@ -1,8 +1,10 @@
-.debug { border: solid 1px red; }
+.xdebug { border: solid 1px red; }
 
 /*misc*/
 .ta-cen {text-align: center;}
 .ta-r {text-align: right;}
+.bd-1 {border: 1px solid black;}
+.uline {text-decoration: underline;}
 
 
 
@@ -22,6 +24,7 @@
 .h-33 {height: 33em;}
 .h-35 {height: 35em;}
 .h-40 {height: 40em;}
+.h-45 {height: 45em;}
 
 
 
@@ -47,6 +50,7 @@
 .ml-10 {margin-left: 10em;}
 
 .mt--1 {margin-top: -1em;}
+.mt--2 {margin-top: -2em;}
 .mt--5 {margin-top: -5em;}
 .mt--7 {margin-top: -7em;}
 .mt--10 {margin-top: -10em;}
@@ -56,11 +60,12 @@
 /*padding*/
 .padl-5 {padding-left: 5em; }
 
+.padt-3 {padding-top: 3em;}
 
 
 
 /*specifics*/
-.btn {
+.btn-g {
   color: #ffffff;
   font-size: 15px;
   background: #1BBC9B;
@@ -69,10 +74,26 @@
   padding: 1em 1em 2em 1em;
   text-decoration: none;
   border-style: none;
+}
 
+.btn {
+  color: #ffffff;
+  font-size: 15px;
+  background: #22313F;
+  height: 2em;
+  width: 10em;
+  padding: 1em 1em 2em 1em;
+  text-decoration: none;
+  border-style: none;
 }
 
 .btn:hover {
-  background: #1BA39C;
+  background: #336E7B;
   text-decoration: none;
+}
+
+.shadow {
+-webkit-box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.75);
 }
