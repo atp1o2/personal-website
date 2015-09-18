@@ -1,7 +1,105 @@
+.debugx { border: solid 1px red; }
+
+* { font-family: 'Titillium Web', sans-serif;}
+
 .blue-space {
   background-image: url('../assets/bg1.jpeg')
 }
 
 body {
-  background-image: url('../assets/desktop.jpg');
+  background-color: black;
+  background-image: url('../assets/today2.jpg');
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  overflow: auto;
+  height: 76em;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.initials {
+    margin-left: 2em;
+    margin-top: 0.5em;
+    font-size: 300%;
+    font-weight: bold;
+    border: 5px white solid;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+#nav div{
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+
+/*button*/
+.btn-g {
+  color: #ffffff;
+  font-size: 15px;
+  /*background: #1BBC9B;*/
+  background: rgba(0, 0, 0, 0);
+  height: 2em;
+  width: 10em;
+  padding: 1em 1em 2em 1em;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 15px;
+  /*background: #22313F;*/
+  background: rgba(0, 0, 0, 0);
+  height: 2em;
+  width: 10em;
+  padding: 1em 1em 2em 1em;
+  text-decoration: none;
+  border: 2px white solid;
+  /*border-style: none;*/
+}
+
+.btn:hover {
+  background: #336E7B;
+  text-decoration: none;
+}
+
+
+
+#game {
+    border: 1px gray dashed;
+    position: relative;
+    height: 7em;
+    width: 7em;
+    left: 18em;
+    top: 47em;
+}
+#game:hover {
+  border: 3px white solid;
+}
+
+#keyboard {
+    border: 1px gray dashed;
+    position: relative;
+    height: 7em;
+    width: 20em;
+    left: 39em;
+    top: 35em;
+}
+#keyboard:hover {
+  border: 3px white solid;
+}
+
+#headphones {
+    border: 1px gray dashed;
+    position: relative;
+    height: 7em;
+    width: 10em;
+    left: 78em;
+    top: 19em;
+}
+#headphones:hover {
+  border: 3px white solid;
 }

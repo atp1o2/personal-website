@@ -1,11 +1,17 @@
-.debugx { border: solid 1px red; }
+
 
 /*misc*/
 .ta-cen {text-align: center;}
 .ta-r {text-align: right;}
-.bd-1 {border: 1px solid black;}
-.uline {text-decoration: underline;}
+.bd-1 {border: 1px solid white;}
+.bd-5 {border: 5px solid white;}
 
+.uline {text-decoration: underline;}
+.fs-200 {font-size: 200%;}
+.fs-150 {font-size: 150%;}
+.d-in { display: inline-block;}
+.f-l { float: left;}
+.clear-l { clear: left;}
 
 
 /*dimensions*/
@@ -13,6 +19,7 @@
 .w-10 {width: 10em; }
 .w-15 {width: 15em; }
 .w-20 {width: 20em; }
+
 
 .h-2 {height: 2em;}
 .h-3 {height: 3em;}
@@ -24,6 +31,7 @@
 .h-33 {height: 33em;}
 .h-35 {height: 35em;}
 .h-40 {height: 40em;}
+.h-43 {height: 43em;}
 .h-45 {height: 45em;}
 
 
@@ -37,8 +45,11 @@
 .bg-yellow {background-color: #F5AB35; }
 .bg-green {background-color: #1BBC9B; }
 .bg-white { background-color: rgba(255, 255, 255, 0.75); }
+.bg-black { background-color: rgba(0, 0, 0, 0.8); }
 
-.f-white {color: white;}
+
+.c-white {color: white;}
+.c-green {color: green;}
 
 
 
@@ -50,52 +61,47 @@
 .ml-5 {margin-left: 5em;}
 .ml-7 {margin-left: 7em;}
 .ml-10 {margin-left: 10em;}
+.ml-15 {margin-left: 15em;}
+.ml-20 {margin-left: 20em;}
+.ml-25 {margin-left: 25em;}
+.ml-36 {margin-left: 36em;}
+.ml-38 {margin-left: 38em;}
+
+.mr--4 {margin-right: -4em;}
 
 .mt--1 {margin-top: -1em;}
 .mt--2 {margin-top: -2em;}
+.mt--3 {margin-top: -3em;}
 .mt--5 {margin-top: -5em;}
 .mt--7 {margin-top: -7em;}
 .mt--10 {margin-top: -10em;}
+.mt-3 {margin-top: 3em;}
+.mt-7 {margin-top: 7em;}
+.mt-9 {margin-top: 9em;}
 
+.mb-1 {margin-bottom: 1em; }
 .mb-3 {margin-bottom: 3em; }
 
 /*padding*/
 .padl-5 {padding-left: 5em; }
-
 .padt-3 {padding-top: 3em;}
+.pad-1 {padding: 1em;}
+.pad-05 {padding: 0.5em;}
+
+
+
+
+
+
 
 
 
 /*specifics*/
-.btn-g {
-  color: #ffffff;
-  font-size: 15px;
-  background: #1BBC9B;
-  height: 2em;
-  width: 10em;
-  padding: 1em 1em 2em 1em;
-  text-decoration: none;
-  border-style: none;
+
+hr  {
+  margin-right: 0;
+  border-width: 3px;
 }
-
-.btn {
-  color: #ffffff;
-  font-size: 15px;
-  background: #22313F;
-  height: 2em;
-  width: 10em;
-  padding: 1em 1em 2em 1em;
-  text-decoration: none;
-  border-style: none;
-}
-
-.btn:hover {
-  background: #336E7B;
-  text-decoration: none;
-}
-
-
-
 
 
 .shadow {
