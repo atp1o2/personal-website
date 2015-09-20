@@ -1,28 +1,38 @@
-== README
+== ATP Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Notes
 
-Things you may want to cover:
+* bag
+- Usb, pens, exacto-knife, cords, usb
+- Everything I need to be on the go
 
-* Ruby version
+* DS
+- My gaming life
 
-* System dependencies
+* Journal
+- "Error: Cannot view source"
 
-* Configuration
+* Tags
+- DBC Graduate
+- List off programming skills
 
-* Database creation
+* Bookmark
+- Thailand and traveling
 
-* Database initialization
+* GoT Coaster
+- List some favorite tv shows
 
-* How to run the test suite
+* Headphones
+- Grado SR60 first love
+- List some favorite songs
 
-* Services (job queues, cache servers, search engines, etc.)
+* UC Davis
+- Biochemistry and biotech passion
 
-* Deployment instructions
+* Watch
+- My favorite watch
 
-* ...
+* Flute
+- Musical history
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

@@ -3,8 +3,9 @@
 /*misc*/
 .ta-cen {text-align: center;}
 .ta-r {text-align: right;}
-.bd-1 {border: 1px solid white;}
-.bd-5 {border: 5px solid white;}
+.bd-1w {border: 1px solid white;}
+.bd-1b {border: 1px solid black;}
+.bd-5w {border: 5px solid white;}
 
 .uline {text-decoration: underline;}
 .fs-200 {font-size: 200%;}
@@ -45,7 +46,7 @@
 .bg-yellow {background-color: #F5AB35; }
 .bg-green {background-color: #1BBC9B; }
 .bg-white { background-color: rgba(255, 255, 255, 0.75); }
-.bg-black { background-color: rgba(0, 0, 0, 0.8); }
+.bg-black { background-color: rgba(0, 0, 0, 0.7); }
 
 
 .c-white {color: white;}
@@ -100,7 +101,7 @@
 
 hr  {
   margin-right: 0;
-  border-width: 3px;
+  border-width: 1px;
 }
 
 

@@ -8,14 +8,15 @@
 
 body {
   background-color: black;
-  background-image: url('../assets/today2.jpg');
+  background-image: url('../assets/new4.jpg');
   background-repeat: no-repeat;
+  /*background-size: 1440px 850px;*/
 }
 
 .wrapper {
   overflow: auto;
-  height: 76em;
-  background-color: rgba(0, 0, 0, 0.2);
+  /*height: 54em;*/
+  background-color: rgba(0, 0, 0, 0.0);
 }
 
 .initials {
@@ -78,6 +79,7 @@ body {
 }
 #game:hover {
   border: 3px white solid;
+
 }
 
 #keyboard {
@@ -85,8 +87,8 @@ body {
     position: relative;
     height: 7em;
     width: 20em;
-    left: 39em;
-    top: 35em;
+    left: 35em;
+    top: 30em;
 }
 #keyboard:hover {
   border: 3px white solid;
