@@ -6,7 +6,7 @@
 .bd-1w {border: 1px solid white;}
 .bd-1b {border: 1px solid black;}
 .bd-5w {border: 5px solid white;}
-
+.z-100 {z-index: 100;}
 .uline {text-decoration: underline;}
 .fs-200 {font-size: 200%;}
 .fs-150 {font-size: 150%;}

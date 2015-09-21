@@ -11,6 +11,7 @@ My gaming life
 
 * Journal
 "Error: Cannot view source"
+has a different entry every refresh
 
 * Tags
 DBC Graduate
@@ -31,6 +32,7 @@ Biochemistry and biotech passion
 
 * Watch
 My favorite watch
+tells you the time on hover
 
 * Flute
 Musical history

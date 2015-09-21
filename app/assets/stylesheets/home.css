@@ -1,4 +1,4 @@
-.debugx { border: solid 1px red; }
+.debug { border: solid 1px red; }
 
 * { font-family: 'Titillium Web', sans-serif;}
 
@@ -7,10 +7,10 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   background-image: url('../assets/new4.jpg');
   background-repeat: no-repeat;
-  /*background-size: 1440px 850px;*/
+  /*background-size: 100%;*/
 }
 
 .wrapper {
@@ -67,41 +67,83 @@ body {
   text-decoration: none;
 }
 
-
-
-#game {
-    border: 1px gray dashed;
-    position: relative;
-    height: 7em;
-    width: 7em;
-    left: 18em;
-    top: 47em;
-}
-#game:hover {
-  border: 3px white solid;
-
+.pieces {
+  position: absolute;
+  z-index: 51;
+  width: 1440px;
+  height: 850px;
+  border: 1px green solid;
+  margin-top: -10em;
 }
 
-#keyboard {
-    border: 1px gray dashed;
-    position: relative;
-    height: 7em;
-    width: 20em;
-    left: 35em;
-    top: 30em;
-}
-#keyboard:hover {
-  border: 3px white solid;
+.piece {
+  z-index: 52;
+  border: 1px #1BBC9B dashed;
+  position: relative;
+  display: inline-block;
+  height: 5em;
+  width: 5em;
 }
 
-#headphones {
-    border: 1px gray dashed;
-    position: relative;
-    height: 7em;
-    width: 10em;
-    left: 78em;
-    top: 19em;
+.piece:hover {
+  border: 1px white solid;
 }
-#headphones:hover {
-  border: 3px white solid;
+
+.hide {
+  border: none;
+}
+
+.game {
+    left: 50em;
+    top: 5em;
+}
+
+.journal {
+    left: -5em;
+    top: -4em;
+}
+
+.tags {
+    left: 5em;
+    top: 5em;
+}
+
+.travel {
+    left: 8em;
+    top: 8em;
+}
+
+.coaster {
+    left: 7em;
+    top: 18em;
+}
+
+.headphones {
+  left: -11em;
+  top: 27em;
+}
+
+.ucd {
+  left: -21em;
+  top: 26em;
+}
+
+.watch {
+  left: -43em;
+  top: 21em;
+}
+
+.flute {
+  left: 23em;
+  top: -40em;
+}
+
+.pouch {
+  left: -31em;
+  top: -8em;
+}
+
+.flute {
+  left: -41em;
+  top: 2em;
 }
