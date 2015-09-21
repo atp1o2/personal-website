@@ -16,7 +16,8 @@ body {
 .wrapper {
   overflow: auto;
   /*height: 54em;*/
-  background-color: rgba(0, 0, 0, 0.0);
+  margin: 0 auto;
+  /*background-color: rgba(0, 0, 0, 0.0);*/
 }
 
 .initials {
@@ -68,16 +69,15 @@ body {
 }
 
 .pieces {
-  position: absolute;
-  z-index: 51;
-  width: 1440px;
-  height: 850px;
+  position: relative;
+  /*width: 1440px;*/
+  height: 53em;
   border: 1px green solid;
-  margin-top: -10em;
+  /*margin-top: -10em;*/
+  overflow: auto;
 }
 
 .piece {
-  z-index: 52;
   border: 1px #1BBC9B dashed;
   position: relative;
   display: inline-block;
@@ -92,6 +92,9 @@ body {
 .hide {
   border: none;
 }
+
+
+/*individual pieces*/
 
 .game {
     left: 50em;

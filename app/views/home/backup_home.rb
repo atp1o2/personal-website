@@ -48,5 +48,26 @@
   <!-- <footer class="debug bd-1 bg-black c-white h-5">Hi, I made this site</footer> -->
 
 
+ <!-- stack -->
 
+    <div class="debug col span-3-d ml-">
+      <p><b><u>Languages</u></b></p>
+        <p>Ruby</p>
+        <p>Javascript</p>
+        <p>HTML5</p>
+        <p>CSS (atomic)</p>
+    </div>
+
+    <div class="debug col span-3-d  ml3">
+      <p><b><u>Frameworks</u></b></p>
+        <p>Ruby on Rails</p>
+        <p>Sinatra</p>
+    </div>
+
+    <div class="debug col  span-3-d ml3">
+      <p><b><u>Methodologies</u></b></p>
+        <p>Git Workflow</p>
+        <p>Test Driven Development</p>
+        <p>Object-Oriented Design</p>
+    </div>
 
