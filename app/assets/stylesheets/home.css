@@ -1,4 +1,4 @@
-.debug { border: solid 1px red; }
+.xdebug { border: solid 1px red; }
 
 * { font-family: 'Titillium Web', sans-serif;}
 
@@ -10,7 +10,7 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
   background-image: url('../assets/new4.jpg');
   background-repeat: no-repeat;
-  /*background-size: 100%;*/
+  background-size: 100%;
 }
 
 .wrapper {
@@ -70,11 +70,9 @@ body {
 
 .pieces {
   position: relative;
-  /*width: 1440px;*/
   height: 53em;
   border: 1px green solid;
-  /*margin-top: -10em;*/
-  overflow: auto;
+  background-attachment: scroll;
 }
 
 .piece {
@@ -90,63 +88,59 @@ body {
 }
 
 .hide {
-  border: none;
+  border: 1px rgba(0, 0, 0, 0) dashed;
 }
 
 
 /*individual pieces*/
+.flute {
+  left: 0em;
+  top: 12em;
+}
+
+.pouch {
+  left: 8em;
+  top: 3em;
+}
 
 .game {
-    left: 50em;
+    left: 25em;
     top: 5em;
 }
 
 .journal {
-    left: -5em;
-    top: -4em;
-}
-
-.tags {
-    left: 5em;
+    left: 37em;
     top: 5em;
 }
 
+.tags {
+    left: 23em;
+    top: 20em;
+}
+
 .travel {
-    left: 8em;
-    top: 8em;
+    left: 30em;
+    top: 24em;
 }
 
 .coaster {
-    left: 7em;
-    top: 18em;
+    left: 28em;
+    top: 33em;
 }
 
 .headphones {
-  left: -11em;
-  top: 27em;
+  left: 8em;
+  top: 44em;
 }
 
 .ucd {
   left: -21em;
-  top: 26em;
+  top: 47em;
 }
 
 .watch {
-  left: -43em;
-  top: 21em;
+  left: -44em;
+  top: 42em;
 }
 
-.flute {
-  left: 23em;
-  top: -40em;
-}
 
-.pouch {
-  left: -31em;
-  top: -8em;
-}
-
-.flute {
-  left: -41em;
-  top: 2em;
-}

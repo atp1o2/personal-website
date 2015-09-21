@@ -17,6 +17,14 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  controller :pieces do
+    get 'game' => "pieces#game"
+    get 'journal' => "pieces#journal"
+    get 'tags' => "pieces#tags"
+    get 'headphones' => "pieces#headphones"
+    get 'ucd' => "pieces#ucd"
+  end
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
