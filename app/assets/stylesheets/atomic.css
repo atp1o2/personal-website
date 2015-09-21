@@ -25,6 +25,7 @@
 .bd-1w {border: 1px solid white;}
 .bd-1b {border: 1px solid black;}
 .bd-5w {border: 5px solid white;}
+.br-5 {border-radius: 5px;}
 
 
 /*dimensions*/
@@ -91,6 +92,7 @@
 .mt--30 {margin-top: -30em;}
 .mt--40 {margin-top: -40em;}
 .mt-3 {margin-top: 3em;}
+.mt-5 {margin-top: 5em;}
 .mt-7 {margin-top: 7em;}
 .mt-9 {margin-top: 9em;}
 .mt-10 {margin-top: 10em;}
