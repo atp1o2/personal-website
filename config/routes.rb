@@ -8,7 +8,10 @@ Rails.application.routes.draw do
 
   controller :home do
     get 'activity' => 'home#activity'
-    get 'bio' => 'home#bio'
+    get 'contact' => 'home#contact'
+    get 'resume' => 'home#resume'
+    get 'pdf' => 'home#pdf'
+
   end
 
   resources :projects

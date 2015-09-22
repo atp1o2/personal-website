@@ -8,15 +8,15 @@
 <div class="wrapper">
   <!-- <div class="debug row span-12-d h-10 c-white "> -->
 
-    <div class="debug col span-3-d bg-black ta-cen bd-1b">
+    <div class="debug col span-3-d bg-black bd-1b">
       <div class="initials f-l mb-1 "><a href="<%= root_path %>" class="c-white">atp</a></div>
-      <h1 class="clear-l c-white"> Web Developer </h1>
-      <div id="nav" class="debug col span-12-d  ">
-        <div><%= button_to "Resume", {action: "bio"}, class: "btn " %></div>
-        <div><%= button_to "Contact", {action: "bio"}, class: "btn " %></div>
+      <h1 class="clear-l c-white ta-cen mr-1">Web Developer</h1>
+      <div id="nav" class="debug col span-12-d padl-1">
+        <div><%= button_to "Resume", {action: 'resume'}, class: "btn" %></div>
+        <div><%= button_to "Contact", {action: "contact"}, class: "btn " %></div>
       </div>
       <div id="content">
-        <div class="debug col clear-l h-30 mt-3 c-white">
+        <div class="debug col clear-l h-30 mt-3 c-white padl-1">
           <h3><strong><u>Recent Commits</strong></u></h3>
           <h3><strong><u>Stack Overflow</strong></u></h3>
           <h3><strong><u>Current Projects</strong></u></h3>
@@ -26,9 +26,8 @@
   </div>
 
   <div id="pieces_content" class="debug col span-5-d h-30 ml-5  mt-10">
-    <div class="c-white fs-150 ml-5 mt-3 debug">
-      <h2>Hi</h2>
-      <h2 class="">I'm Andrew.</h2>
+    <div class="c-white fs-150 ml-7 mt-9 debug">
+      <h2>Hi, I'm Andrew</h2>
     </div>
   </div>
 

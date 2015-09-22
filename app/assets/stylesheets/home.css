@@ -2,15 +2,22 @@
 
 * { font-family: 'Titillium Web', sans-serif;}
 
-.blue-space {
-  background-image: url('../assets/bg1.jpeg')
+.profile-pic {
+  background-image: url('../assets/atp3.jpg');
+  height: 7em;
+  width: 7em;
+  /*border: 1px black solid;*/
+  /*border-radius: 5px 20px 5px;*/
+  background-position: center top;
+  background-size: 100% auto;
+  border: 2px white solid;
 }
 
 body {
   background-color: rgba(0, 0, 0, 0.9);
   background-image: url('../assets/new4.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  /*background-size: 100%;*/
 }
 
 .wrapper {
@@ -56,7 +63,20 @@ body {
   /*background: #22313F;*/
   background: rgba(0, 0, 0, 0);
   height: 2em;
-  width: 10em;
+  width: 9em;
+  padding: 1em 1em 2em 1em;
+  text-decoration: none;
+  border: 2px white solid;
+  /*border-style: none;*/
+}
+
+.btn-long {
+  color: #ffffff;
+  font-size: 15px;
+  /*background: #22313F;*/
+  background: rgba(0, 0, 0, 0);
+  height: 2em;
+  width: 12em;
   padding: 1em 1em 2em 1em;
   text-decoration: none;
   border: 2px white solid;
@@ -71,7 +91,7 @@ body {
 .pieces {
   position: relative;
   height: 53em;
-  border: 1px green solid;
+  /*border: 1px green solid;*/
   background-attachment: scroll;
 }
 
