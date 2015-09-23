@@ -1,0 +1,56 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+    tabSelector();
+    pieceSelector();
+    // $.backstretch('../assets/desk.jpg')
+  })
+</script>
+
+<div class="wrapper">
+
+  <!-- <div class="debug row span-12-d h-10 c-white "> -->
+
+    <div class="debug col span-3-d bg-black bd-1b">
+      <div class="initials f-l mb-1 "><a href="<%= root_path %>" class="c-white">atp</a></div>
+      <h1 class="clear-l c-white ta-cen mr-1">Web Developer</h1>
+      <div id="nav" class="debug col span-12-d padl-1">
+        <div><%= button_to "Resume", {action: 'resume'}, class: "btn" %></div>
+        <div><%= button_to "Contact", {action: "contact"}, class: "btn " %></div>
+      </div>
+      <div id="content">
+        <div class="debug col clear-l h-30 mt-3 c-white padl-1">
+
+          <h3><strong><u>Recent Commit</strong></u></h3>
+          <h3><strong><u>Stack Overflow</strong></u></h3>
+          <h3><strong><u>Current Projects</strong></u></h3>
+          <h3><strong><u>Code Eval</strong></u></h3>
+        </div>
+      </div>
+  </div>
+
+  <div id="pieces_content" class="debug col span-5-d h-30 ml-5  mt-10">
+    <div class="c-white fs-150 ml-7 mt-9 debug">
+      <h2>Hi, I'm Andrew</h2>
+    </div>
+  </div>
+
+  <div class="debug pieces col span-9-d mt--40 z-15">
+    <div class="flute piece hide"></div>
+    <div class="pouch piece hide"></div>
+    <a href="/game"><div class="game piece"></div></a>
+    <a href="/journal"><div class="journal piece hide"></div></a>
+    <a href="/tags"><div class="tags piece"></div></a>
+    <div class="travel piece hide"></div>
+    <div class="coaster piece hide"></div>
+    <a href="/headphones"><div class="headphones piece"></div></a>
+    <a href="/ucd"><div class="ucd piece"></div></a>
+    <div class="watch piece hide"></div>
+  </div>
+
+</div>
+
+
+
+
+
+

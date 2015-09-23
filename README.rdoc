@@ -1,0 +1,40 @@
+== ATP Website
+
+# Notes
+
+* bag
+Usb, pens, exacto-knife, cords, usb
+Everything I need to be on the go
+
+* DS
+My gaming life
+
+* Journal
+"Error: Cannot view source"
+has a different entry every refresh
+
+* Tags
+DBC Graduate
+List off programming skills
+
+* Bookmark
+Thailand and traveling
+
+* GoT Coaster
+List some favorite tv shows
+
+* Headphones
+Grado SR60 first love
+List some favorite songs
+
+* UC Davis
+Biochemistry and biotech passion
+
+* Watch
+My favorite watch
+tells you the time on hover
+
+* Flute
+Musical history
+
+
