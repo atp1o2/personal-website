@@ -31,8 +31,8 @@ html {
 
 .wrapper {
   overflow: auto;
-  /*height: 54em;*/
   margin: 0 auto;
+  /*height: 54em;*/
   /*background-color: rgba(0, 0, 0, 0.0);*/
 }
 
@@ -172,4 +172,9 @@ html {
   top: 42em;
 }
 
-
+img.bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
