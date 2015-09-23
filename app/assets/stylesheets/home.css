@@ -14,7 +14,7 @@
 }
 
 .bodyx {
-  background-color: rgba(0, 0, 0, 0.9);
+  /*background-color: rgba(0, 0, 0, 0.9);*/
   background-image: url('../assets/desk.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
