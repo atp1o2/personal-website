@@ -1,0 +1,10 @@
+<div>
+  <% @commits.each do |commit| %>
+    <p>
+    <span><%= commit["message"] %></span><br>
+    <span><%= commit["url"] %></span><br>
+    <span><%= commit["created_at"] %></span>
+    </p>
+  <% end %>
+</div>
+

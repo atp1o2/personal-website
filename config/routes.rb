@@ -11,22 +11,25 @@ Rails.application.routes.draw do
     get 'contact' => 'home#contact'
     get 'resume' => 'home#resume'
     get 'pdf' => 'home#pdf'
-
   end
 
-  resources :projects
-
-  resources :blogs do
-    resources :comments
+  controller :apis do
+    get 'commits' => 'apis#commits'
   end
 
-  controller :pieces do
-    get 'game' => "pieces#game"
-    get 'journal' => "pieces#journal"
-    get 'tags' => "pieces#tags"
-    get 'headphones' => "pieces#headphones"
-    get 'ucd' => "pieces#ucd"
-  end
+  # resources :projects
+
+  # resources :blogs do
+  #   resources :comments
+  # end
+
+  # controller :pieces do
+  #   get 'game' => "pieces#game"
+  #   get 'journal' => "pieces#journal"
+  #   get 'tags' => "pieces#tags"
+  #   get 'headphones' => "pieces#headphones"
+  #   get 'ucd' => "pieces#ucd"
+  # end
 
 
   # Example of regular route:
