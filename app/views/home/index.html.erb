@@ -1,7 +1,7 @@
 <script type="text/javascript">
   $(document).ready(function(){
     tabSelector();
-    pieceSelector();
+    activitySelector();
   })
 </script>
 
@@ -18,19 +18,21 @@
       <div class="d-inb ml-05" ><%= button_to "Contact", {action: "contact"}, class: "btn " %></div>
     </div>
     <div id="content">
-      <div class="debug col clear-l h-30 mt-3 c-white pad-1 ta-cen">
-        <p>I believe that understanding the mechanics behind the magic is how programmers transition from being Users to Creators.</p>
+      <div class="debug col clear-l h-30 mt-2 c-white pad-1 ta-cen">
+        <p>I believe in understanding the mechanics behind the magic is how programmers transition from being Users to Creators.</p>
 
-        <p>I enjoy constructing my own custom jQuery events/animations, styling responsive websites from scratch, and creating intuitive designs.</p>
-
-        <p>I hope to transform apps from being a barrier between people, to a tool that creates more personal human interactions.</p>
+        <p>I hope to transform technology from being a barrier between people, to a tool that creates more personal human interactions.</p>
       </div>
     </div>
   </div>
 
-  <div id="pieces_content" class="debug col span-9-d h-30 ml- mt-10">
-    <div class="c-white fs-150 ml-7 mt-9 debug">
-      <h2>Hi, I'm Andrew</h2>
+  <div class="debug col span-9-d mt-7">
+    <div class="debug h-30 ml-7 mt-5">
+      <h2 class="c-white fs-150">Hi, I'm Andrew</h2>
+      <div id="activity" class="d-inb"><%= button_to "Commits", {action: 'commits', controller: 'apis'}, class: "btn" %></div>
+      <div id="activity" class="d-inb"><%= button_to "Projects", {action: 'index', controller: 'projects'}, class: "btn" %></div>
+
+      <div id="activities"></div>
     </div>
   </div>
 
@@ -48,8 +50,6 @@
   </div> -->
 
 </div>
-
-
 
 
 

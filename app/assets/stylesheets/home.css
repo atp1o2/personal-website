@@ -1,4 +1,4 @@
-.debugx { border: solid 1px red; }
+.debug { border: solid 1px red; }
 
 * { font-family: 'Titillium Web', sans-serif;}
 
@@ -28,7 +28,7 @@ body {
   overflow: auto;
   margin: 0 auto;
   /*height: 54em;*/
-  /*background-color: rgba(0, 0, 0, 0.0);*/
+  /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
 .initials {
@@ -90,19 +90,8 @@ body {
   text-decoration: none;
 }
 
-.pieces {
-  position: relative;
-  height: 53em;
-  border: 1px green solid;
-  /*background-attachment: scroll;*/
-}
+#activities {
 
-.piece {
-  border: 1px #1BBC9B dashed;
-  position: relative;
-  display: inline-block;
-  height: 5em;
-  width: 5em;
 }
 
 .piece:hover {
@@ -111,56 +100,4 @@ body {
 
 .hide {
   border: 1px rgba(0, 0, 0, 0) dashed;
-}
-
-
-/*individual pieces*/
-.flute {
-  left: 0em;
-  top: 12em;
-}
-
-.pouch {
-  left: 8em;
-  top: 3em;
-}
-
-.game {
-    left: 25em;
-    top: 5em;
-}
-
-.journal {
-    left: 37em;
-    top: 5em;
-}
-
-.tags {
-    left: 23em;
-    top: 20em;
-}
-
-.travel {
-    left: 30em;
-    top: 24em;
-}
-
-.coaster {
-    left: 28em;
-    top: 33em;
-}
-
-.headphones {
-  left: 8em;
-  top: 44em;
-}
-
-.ucd {
-  left: -21em;
-  top: 47em;
-}
-
-.watch {
-  left: -44em;
-  top: 42em;
 }

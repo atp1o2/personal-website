@@ -18,10 +18,12 @@ var tabSelector = function(){
   })
 }
 
-var pieceSelector = function(){
-  $(".pieces a").on("click", function(event){
+
+
+var activitySelector = function(){
+  $("#activity .button_to").on("click", function(event){
     event.preventDefault();
-    var url = $(this).attr('href');
+    var url = $(this).attr('action');
 
     var request = $.ajax({
       url: url,
@@ -30,7 +32,7 @@ var pieceSelector = function(){
     })
 
     request.done(function(response){
-      $('#pieces_content').empty().append(response);
+      $('#activities').empty().append(response);
     })
   })
 }

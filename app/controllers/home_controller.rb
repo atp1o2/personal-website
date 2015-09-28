@@ -18,4 +18,5 @@ class HomeController < ApplicationController
     pdf_filename = File.join(Rails.root, "app/assets/andrew_pham_resume.pdf")
     send_file(pdf_filename, :filename => "andrew_pham_resume.pdf", :type => "application/pdf")
   end
+
 end

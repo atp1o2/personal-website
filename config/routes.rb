@@ -17,6 +17,9 @@ Rails.application.routes.draw do
     get 'commits' => 'apis#commits'
   end
 
+  resources :projects, only: [:index]
+
+
   # resources :projects
 
   # resources :blogs do
