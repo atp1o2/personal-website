@@ -1,19 +1,22 @@
 <div class="debug col span-8-d bg-blue h-30 mt-1 br-5">
 
-      <div class="debug">
+      <div class="debug ml-2">
         <p>Recent Commits</p>
+          <ol>
         <% @commits.each do |commit| %>
 
           <% link = commit["url"].split("/")
             short_link = link[3] + "/" + link[4] + "/" + link[5] + "/" + link[6] + "/" + link[7]
             url = "https://github.com/" + short_link %>
 
-          <p>
-            <span><%= commit["message"] %></span><br>
-            <a href="<%= url %>" class="fs-75"><%= short_link.slice(0..-34) %>...</a>
-            <span class="fs-75"><%= commit["created_at"] %></span>
-          </p>
+            <li>
+              <span class="c-white bold"><%= commit["message"] %></span><br>
+              <a href="<%= url %>" class="fs-75 c-gray"><%= short_link.slice(0..-34) %>...</a>
+              <span class="fs-75 c-gray"><%= commit["created_at"] %></span>
+              <br><br>
+            </li>
         <% end %>
+          </ol>
       </div>
 </div>
 
