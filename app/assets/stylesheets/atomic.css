@@ -4,6 +4,8 @@
 }
 
 /*misc*/
+.overflow { overflow: auto;}
+
 .z--15 {z-index: -15;}
 .z--20 {z-index: -20;}
 .z--25 {z-index: -25;}

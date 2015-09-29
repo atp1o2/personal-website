@@ -1,4 +1,4 @@
-.debug { border: solid 1px red; }
+.debugx { border: solid 1px red; }
 
 * { font-family: 'Titillium Web', sans-serif;}
 
@@ -37,6 +37,11 @@ body {
     border: 5px white solid;
     display: inline-block;
     padding: 0.5em;
+}
+
+.image{
+  width: 16em;
+  height: 10em;
 }
 
 /*#nav div{

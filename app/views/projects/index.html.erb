@@ -1,9 +1,22 @@
-<div class="c-white span-8-d h-30 bg-blue">
-  <div class="debug row">
-    <h1>Projects</h1>
+<div class="debug col span-11-d bg-blue h-30 mt-1 br-5">
+
+  <div class="debug mt-2">
+    <% @projects.each do |project| %>
+      <div class="debug col span-12-d c-white">
+
+        <div class=" debug col span-4-d mb-3 padl-1 ">
+         <%= link_to (image_tag project.image, class: "image"), project.url %>
+        </div>
+
+        <div class=" debug col span-8-d h-10 ta-left">
+          <span class="fs-150 bold"><%= project.name %></span><br>
+          <span><%= project.description %></span><br><br>
+          <span>Tech: <%= project.tech %></span>
+        </div>
+      <% end %>
+
+    </div>
   </div>
 
-  <h2>Scene</h2>
-  <h2>Rostr</h2>
 
 </div>
