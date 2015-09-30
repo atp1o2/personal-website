@@ -5,11 +5,11 @@
       <div class="debug col span-12-d c-white">
 
         <div class=" debug col span-4-d mb-3 padl-1 ">
-         <%= link_to (image_tag project.image, class: "image"), "https://"+project.url %>
+         <%= link_to (image_tag project.image, class: "image bd-1w"), "https://"+project.url %>
         </div>
 
         <div class=" debug col span-8-d h-10 ta-left">
-          <span class="fs-150 bold"><%= project.name %></span><br>
+          <span class="fs-150 bold"><%= link_to project.name, "https://"+project.url, class: "c-white" %></span><br>
           <span><%= project.description %></span><br><br>
           <span>Tech: <%= project.tech %></span>
         </div>

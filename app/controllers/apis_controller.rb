@@ -9,13 +9,11 @@ class ApisController < ApplicationController
         else
           event["payload"]["commits"].each_with_index do |commit,j|
             @commits << commit
-            @commits[j]["created_at"] = event["created_at"]
+            @commits[i]["created_at"] = event["created_at"]
             return @commits.pop if @commits.size == 6
           end
         end
     end
-    render json: @commits
-
   end
 
 end
