@@ -14,6 +14,8 @@ class ApisController < ApplicationController
           end
         end
     end
+    render json: @commits
+
   end
 
 end
