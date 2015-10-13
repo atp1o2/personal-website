@@ -5,9 +5,9 @@
   })
 </script>
 
-<div class="wrapper">
+<div class="wrapper ">
 
-  <div class="debug container col span-3-d bg-black bd-1b h-max">
+  <div class="debug container col span-3-d bg-black bd-1b h-100vh">
     <div class="debug flex-center">
       <div class="initials debug m0-a mb-1 mt-1"><a href="<%= root_path %>" class="c-white">atp</a></div>
     </div>
@@ -17,11 +17,12 @@
       <div class="d-inb mr-05"><%= button_to "Resume", {action: 'resume'}, class: "btn" %></div>
       <div class="d-inb ml-05" ><%= button_to "Contact", {action: "contact"}, class: "btn " %></div>
     </div>
-    <div id="content">
-      <div class="debug col clear-l h-30 mt-2 c-white pad-1 ta-cen">
-        <p>I believe in understanding the mechanics behind the magic is how programmers transition from being Users to Creators.</p>
 
-        <p>I hope to transform technology from being a barrier between people, to a tool that creates more personal human interactions.</p>
+    <div id="content">
+      <div class="debug col clear-l mt-2 c-white pad-1 ta-cen ">
+        <p>Hi, I'm Andrew.</p>
+
+        <p>I enjoy transforming technology from being a barrier between people to a tool that creates more personal human interactions.</p>
       </div>
     </div>
   </div>
@@ -29,8 +30,8 @@
   <div class="debug col span-9-d mt-">
     <div class="debug h-30 ml-7 mt-5">
       <!-- <h2 class="c-white fs-150">Hi, I'm Andrew</h2> -->
-      <div id="activity" class="d-inb"><%= button_to "Commits", {action: 'commits', controller: 'apis'}, class: "btn " %></div>
       <div id="activity" class="d-inb"><%= button_to "Projects", {action: 'index', controller: 'projects'}, class: "btn ml-1" %></div>
+      <div id="activity" class="d-inb"><%= button_to "Commits", {action: 'commits', controller: 'apis'}, class: "btn " %></div>
 
       <div id="activities"></div>
     </div>

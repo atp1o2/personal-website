@@ -1,4 +1,4 @@
-.debugx { border: solid 1px red; }
+.xdebug { border: solid 1px red; }
 
 * { font-family: 'Titillium Web', sans-serif;}
 
@@ -15,7 +15,6 @@
 
 body {
   background-image: url('../assets/plane.jpg');
-  /*background-image: url("http://p1.pichost.me/i/39/1621104.jpg");*/
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -28,7 +27,6 @@ body {
 .wrapper {
   overflow: auto;
   margin: 0 auto;
-  /*height: 54em;*/
   /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
