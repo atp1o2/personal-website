@@ -1,3 +1,5 @@
+# heroku run rake db:reset
+
 rostr = Project.create(
   name: "ROSTR",
   description: "Allows instructors to create balanced groups of students according to skill level. Finished 1st Place: Hack-to-School Hackathon for its algorithm.",
