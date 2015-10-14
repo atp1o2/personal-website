@@ -5,8 +5,13 @@
     margin: 0 auto;
   }
 
+  .mobile-text {
+    text-align: center;
+  }
+
   .stack div{
     width: 50%;
   }
+
 
 }

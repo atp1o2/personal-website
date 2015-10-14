@@ -1,14 +1,14 @@
-<div class="debug col span-11-d bg-blue h-35 mt-1 br-5 overflow-scroll bd-1g">
+<div class="debug col span-12-d bg-blue h-35 mt-1 br-5 overflow-scroll bd-1g">
 
   <div class="debug mt-2">
     <% @projects.each do |project| %>
-      <div class="debug col span-12-d c-white">
+      <div class="debug col span-12-d mt-2 c-white">
 
-        <div class=" debug col span-4-d mb-3 padl-1 ">
-         <%= link_to (image_tag project.image, class: "image bd-1w"), "https://"+project.url, target: "blank" %>
+        <div class=" debug col span-4-d padl-1">
+         <%= link_to (image_tag project.image, class: "image bd-1w mobile-center"), "https://"+project.url, target: "blank" %>
         </div>
 
-        <div class=" debug col span-8-d h-10 ta-left">
+        <div class=" debug col span-8-d ta-left mobile-text pad-1">
           <span class="fs-150 bold"><%= link_to project.name, "https://"+project.url, class: "c-white", target: "blank" %></span><br>
           <span><%= project.description %></span><br><br>
           <span>Tech: <%= project.tech %></span>
