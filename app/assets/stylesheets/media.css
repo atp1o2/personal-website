@@ -1,8 +1,3 @@
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-
 @media (min-width: 320px) and (max-width: 400px) {
   /*.debug { border: solid 1px red; }*/
   .initials a {color: red; }
