@@ -3,7 +3,6 @@
   .initials a {color: gray; }
 
   .flex-center {
-  display: flex;
-  justify-content: center;
+    margin-left: 160px;
   }
 }
