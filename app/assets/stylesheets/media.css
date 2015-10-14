@@ -1,5 +1,9 @@
 @media (min-width: 320px) and (max-width: 400px) {
   /*.debug { border: solid 1px red; }*/
-  .initials a {color: red; }
+  .initials a {color: gray; }
 
+  .flex-center {
+  display: flex;
+  justify-content: center;
+  }
 }
