@@ -346,6 +346,11 @@
   justify-content: center;
 }
 
+.div-center {
+  display: table;
+  margin: 0 auto;
+}
+
 hr  {
   margin-right: 0;
   border-width: 1px;

@@ -1,14 +1,12 @@
 @media (min-width: 320px) and (max-width: 400px) {
-  /*.debug { border: solid 1px red; }*/
-  .initials {
-    color: gray;
+
+  .mobile-center {
     display: table;
     margin: 0 auto;
   }
 
-  #nav {
-    display: table;
-    margin: 0 auto;
+  .stack div{
+    width: 50%;
   }
 
 }
