@@ -1,8 +1,12 @@
-@media (min-width: 320px) and (max-width: 400px) {
-
+/*Tablet*/
+@media (min-width: 799px) and (max-width: 1200px) {
   .mobile-center {
     display: table;
     margin: 0 auto;
+  }
+
+  .initials {
+    margin-top: 1.5em;
   }
 
   .mobile-text {
@@ -13,5 +17,39 @@
     width: 50%;
   }
 
+  .container {
+    width: 100%;
+  }
+
+  .padl-3 {
+    padding-left: 0em;
+  }
 
 }
+
+
+/*Mobile*/
+@media (min-width: 320px) and (max-width: 400px) {
+  .mobile-center {
+    display: table;
+    margin: 0 auto;
+  }
+
+
+  .initials {
+    margin-top: 1.5em;
+  }
+
+  .mobile-text {
+    text-align: center;
+  }
+
+  .stack div{
+    width: 50%;
+  }
+}
+
+
+
+
+
