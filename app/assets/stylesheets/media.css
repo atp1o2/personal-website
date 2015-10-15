@@ -35,6 +35,10 @@
     margin: 0 auto;
   }
 
+  .padl-3 {
+    padding-left: 0em;
+  }
+
 
   .initials {
     margin-top: 1.5em;
