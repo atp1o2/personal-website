@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/login'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -18,6 +20,7 @@ Rails.application.routes.draw do
   end
 
   resources :projects, only: [:index]
+  resources :users, only: [:new, :create]
 
 
   # resources :projects
